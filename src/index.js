@@ -20,7 +20,7 @@ let status = [
       type: ActivityType.Streaming,
       url: 'https://www.twitch.tv/bkkpro1980',
   }, {
-    name: 'try applications',
+    name: 'try !applications',
       type: ActivityType.Streaming,
       url: 'https://www.twitch.tv/bkkpro1980',
   },
@@ -69,7 +69,7 @@ client.on('messageCreate', (message) => {
     }
     
     if (message.content === 'hi') {
-        message.reply('Hello!');
+        message.reply('hello');
     }
 });
 
@@ -82,7 +82,6 @@ client.on('messageCreate', (message) => {
       const staff = message.member.roles.cache.has('1284751544167956564');
       
       if (!staff) {
-        console.log('Not Staff.')
         return;
       }
       
@@ -120,6 +119,8 @@ client.on('messageCreate', (message) => {
         .setColor(0x0096FF)
 
         message.channel.send({embeds: [embed] });
+
+        console.log('!rules')
     }
 });
 
@@ -131,7 +132,6 @@ client.on('messageCreate', (message) => {
     const staff = message.member.roles.cache.has('1284751544167956564');
       
       if (!staff) {
-        console.log('Not Staff.')
         return;
       }
 
@@ -145,6 +145,7 @@ client.on('messageCreate', (message) => {
         !rules`)
         
         message.channel.send({embeds: [embed] });
+        console.log('!help')
     }
 });
 
@@ -156,7 +157,6 @@ client.on('messageCreate', (message) => {
   const staff = message.member.roles.cache.has('1284751544167956564');
       
       if (!staff) {
-        console.log('Not Staff.')
         return;
       }
   
@@ -169,6 +169,7 @@ client.on('messageCreate', (message) => {
       message.channel.send({
         embeds: [embed],
       });
+      console.log('!applications')
   }
 });
 
