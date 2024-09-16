@@ -128,7 +128,7 @@ client.on('messageCreate', (message) => {
         return;
     }
     
-    const staff = message.member.roles.cache.has('1206132762839621662');
+    const staff = message.member.roles.cache.has('1284751544167956564');
       
       if (!staff) {
         console.log('Not Staff.')
@@ -153,7 +153,7 @@ client.on('messageCreate', (message) => {
       return;
   }
 
-  const staff = message.member.roles.cache.has('1206132762839621662');
+  const staff = message.member.roles.cache.has('1284751544167956564');
       
       if (!staff) {
         console.log('Not Staff.')
