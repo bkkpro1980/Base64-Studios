@@ -115,8 +115,8 @@ client.on('messageCreate', (message) => {
         :link: View the full set of rules [here](<https://docs.google.com/document/d/1KQt4l3ePOdhV4IDVpZbR1C963vgL62Q4HdS4lcc2myU/edit?usp=sharing>)
         
         Any unlisted NBTF discord rules apply to this server.`)
-        .setImage('https://cdn.discordapp.com/attachments/1210607838498529340/1210607935734947930/animatedbanner2-crop.gif?ex=65eb2d7f&is=65d8b87f&hm=5ecf84509345d5061dc90886c5b0c98168016715e437f0924eb3fa3ebf928e7b&')
-        .setThumbnail('https://cdn.discordapp.com/attachments/1210607838498529340/1210607948443689050/logo2-circle.png?ex=65eb2d82&is=65d8b882&hm=84fe169b8b228dd35f230afc2096a3d5c71897e588ed1312dec270cb0674d694&')
+        .setImage('https://raw.githubusercontent.com/bkkpro1980/public/main/AnimatedBanner-Cropped.gif')
+        .setThumbnail('https://raw.githubusercontent.com/bkkpro1980/public/main/GroupIcon-CircleCropped.png')
         .setColor(0x0096FF)
 
         message.channel.send({embeds: [embed] });
