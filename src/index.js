@@ -62,7 +62,8 @@ client.on('interactionCreate', async (interaction) => {
       console.log(error);
     }
   });
-
+  
+/*
 client.on('messageCreate', (message) => {
     if (message.author.bot) {
         return;
@@ -72,6 +73,7 @@ client.on('messageCreate', (message) => {
         message.reply('hello');
     }
 });
+*/
 
 client.on('messageCreate', (message) => {
     if (message.author.bot) {
