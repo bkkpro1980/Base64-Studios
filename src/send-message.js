@@ -48,7 +48,7 @@ client.on('ready', async (c) => {
     });
 
     await channel.send({
-      content: 'Claim or remove role below.',
+      content: 'Claim or remove (a) role(s) below.',
       components: [row],
     });
 console.log('Sent successfully!')
