@@ -62,7 +62,7 @@ client.on('interactionCreate', async (interaction) => {
       console.log(error);
     }
   });
-  
+
 /*
 client.on('messageCreate', (message) => {
     if (message.author.bot) {
@@ -113,9 +113,9 @@ client.on('messageCreate', (message) => {
         
         :link: Discord's Terms of service [here](<https://discord.com/terms>)
         
-        :link: View the full set of rules [here](<https://docs.google.com/document/d/1KQt4l3ePOdhV4IDVpZbR1C963vgL62Q4HdS4lcc2myU/edit?usp=sharing>)
+        :link: View the full set of rules [here](<https://docs.google.com/document/d/1KQt4l3ePOdhV4IDVpZbR1C963vgL62Q4HdS4lcc2myU/edit?usp=sharing>)`)
         
-        Any unlisted NBTF discord rules apply to this server.`)
+
         .setImage('https://raw.githubusercontent.com/bkkpro1980/public/main/AnimatedBanner-Cropped.gif')
         .setThumbnail('https://raw.githubusercontent.com/bkkpro1980/public/main/GroupIcon-CircleCropped.png')
         .setColor(0x0096FF)
